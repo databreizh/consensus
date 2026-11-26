@@ -1,0 +1,18 @@
+[
+  {
+    "dataset": "DICES-350",
+    "var_p_observed": 0.050316520359499746,
+    "var_p_null_mean": 0.03811612277274091,
+    "variance_ratio": 1.320084958785054,
+    "near_unanimous_share_observed": 0.09142857142857143,
+    "near_unanimous_share_null_mean": 4.2857142857142856e-05
+  },
+  {
+    "dataset": "DICES-990",
+    "var_p_observed": 0.04218952565343503,
+    "var_p_null_mean": 0.02829564693401597,
+    "variance_ratio": 1.4910253068897448,
+    "near_unanimous_share_observed": 0.2868686868686869,
+    "near_unanimous_share_null_mean": 0.0252979797979798
+  }
+]

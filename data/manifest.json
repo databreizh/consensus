@@ -1,0 +1,50 @@
+{
+  "origin": "User-supplied dices-dataset-main.zip; upstream commit not supplied. SHA256 pins the exact CSV bytes.",
+  "sources": [
+    {
+      "relative_path": "350/diverse_safety_adversarial_dialog_350.csv",
+      "sha256": "63cb8620eb04e64957f9e45b1f7cb3d079c4eed8e8b28909f46e0b7038ce4301",
+      "bytes": 31143485,
+      "rows": 43050,
+      "upstream_url": "https://github.com/google-research-datasets/dices-dataset"
+    },
+    {
+      "relative_path": "990/diverse_safety_adversarial_dialog_990.csv",
+      "sha256": "14332b6391cdee80383b765c734de3bebf6d8553141ee7d2f47ef0910a12fcf7",
+      "bytes": 50399432,
+      "rows": 72103,
+      "upstream_url": "https://github.com/google-research-datasets/dices-dataset"
+    }
+  ],
+  "derived": [
+    {
+      "path": "data/derived/350/diverse_safety_adversarial_dialog_350.csv",
+      "sha256": "a80a9f97103cb88a97511c21b22d7c3362f927c36d894923630bf9d5415c52dd",
+      "rows": 43050,
+      "columns": [
+        "item_id",
+        "rater_id",
+        "Q_overall",
+        "Q2_harmful_content_overall",
+        "Q3_bias_overall",
+        "Q4_misinformation",
+        "Q5_political_affiliation",
+        "Q6_policy_guidelines_overall"
+      ]
+    },
+    {
+      "path": "data/derived/990/diverse_safety_adversarial_dialog_990.csv",
+      "sha256": "eae188c1475a24bbb1310df64a67a0e7e78a35854ce7d3ca34942408ff62230b",
+      "rows": 72103,
+      "columns": [
+        "item_id",
+        "rater_id",
+        "Q_overall",
+        "Q2_harmful_content_overall",
+        "Q3_unfair_bias_overall",
+        "Q4_misinformation_overall"
+      ]
+    }
+  ],
+  "transformation": "Project columns only; no rows filtered, labels modified, or identifiers remapped. Comprehension, demographics and conversation text excluded. Rater filtering happens only in the original analysis."
+}

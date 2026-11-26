@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+results/local_run/
+data/dices-dataset-main/
+legacy/

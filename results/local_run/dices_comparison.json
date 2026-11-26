@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "exact_json_values_equal": false,
+  "absolute_tolerance": 1e-10,
+  "differences": [],
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

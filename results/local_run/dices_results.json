@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "DICES-350",
+    "rows_raw": 43050,
+    "rows_kept": 36400,
+    "items": 350,
+    "raters": 104,
+    "raters_per_item_mean": 104.0,
+    "unsure_share": 0.06195054945054945,
+    "unsafe_share_overall": 0.35308244252452775,
+    "contested_share_min0.20": 0.6514285714285715,
+    "contested_share_min0.33": 0.3171428571428571,
+    "p_quantiles": {
+      "0.1": 0.1111111111111111,
+      "0.25": 0.18085106382978725,
+      "0.5": 0.2916666666666667,
+      "0.75": 0.49876237623762376,
+      "0.9": 0.7052249297094659
+    },
+    "split_half_r_mean": 0.942657291148648,
+    "spearman_brown_reliability": 0.9704823341138846,
+    "contested_in_half_A_also_in_half_B": 0.8547719928463473,
+    "null_single_truth_contested_min0.20_mean": 0.8994285714285715,
+    "null_single_truth_contested_min0.20_max": 0.9342857142857143,
+    "null_single_truth_contested_min0.33_mean": 0.09969999999999998,
+    "null_single_truth_contested_min0.33_max": 0.13142857142857142,
+    "reason_items_with_10plus_unsafe_votes": 327,
+    "reason_share_items_top_category_below_half": 0.05504587155963303,
+    "reason_mean_pairwise_jaccard": 0.532690004128039,
+    "reason_share_items_jaccard_below_0.5": 0.5902140672782875,
+    "reason_categories": [
+      "Q2_harmful_content_overall",
+      "Q3_bias_overall",
+      "Q4_misinformation",
+      "Q5_political_affiliation",
+      "Q6_policy_guidelines_overall"
+    ]
+  },
+  {
+    "dataset": "DICES-990",
+    "rows_raw": 72103,
+    "rows_kept": 64886,
+    "items": 990,
+    "raters": 160,
+    "raters_per_item_mean": 65.54141414141414,
+    "unsure_share": 0.04979502512098141,
+    "unsafe_share_overall": 0.25913551212391533,
+    "contested_share_min0.20": 0.5121212121212121,
+    "contested_share_min0.33": 0.2818181818181818,
+    "p_quantiles": {
+      "0.1": 0.045454545454545456,
+      "0.25": 0.08455882352941177,
+      "0.5": 0.20967741935483872,
+      "0.75": 0.3898305084745763,
+      "0.9": 0.5627016129032258
+    },
+    "split_half_r_mean": 0.9045956414501873,
+    "spearman_brown_reliability": 0.949908339348519,
+    "contested_in_half_A_also_in_half_B": 0.8557898768500444,
+    "null_single_truth_contested_min0.20_mean": 0.5187020202020202,
+    "null_single_truth_contested_min0.20_max": 0.5494949494949495,
+    "null_single_truth_contested_min0.33_mean": 0.12555555555555553,
+    "null_single_truth_contested_min0.33_max": 0.14343434343434344,
+    "reason_items_with_10plus_unsafe_votes": 592,
+    "reason_share_items_top_category_below_half": 0.006756756756756757,
+    "reason_mean_pairwise_jaccard": 0.5873734295255761,
+    "reason_share_items_jaccard_below_0.5": 0.3614864864864865,
+    "reason_categories": [
+      "Q2_harmful_content_overall",
+      "Q3_unfair_bias_overall",
+      "Q4_misinformation_overall"
+    ]
+  }
+]

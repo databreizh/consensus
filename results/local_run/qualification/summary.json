@@ -1,0 +1,63 @@
+{
+  "status": "independent_reimplementation_not_original_table3_code",
+  "python": "3.11.3",
+  "seed": 20261126,
+  "n": 300,
+  "same_topologies_across_costs": true,
+  "summary": [
+    {
+      "cross_cost": 1,
+      "assess_all": 6.923333333333333,
+      "random": 5.369068717330688,
+      "ratio": 4.574928629166667,
+      "greedy": 3.968033629166667,
+      "optimal": 3.8063460975
+    },
+    {
+      "cross_cost": 3,
+      "assess_all": 12.77,
+      "random": 9.640498912701059,
+      "ratio": 6.463119220833333,
+      "greedy": 5.2753508875,
+      "optimal": 5.0921434375
+    }
+  ],
+  "paired_differences": [
+    {
+      "cross_cost": 1,
+      "difference": "greedy-optimal",
+      "mean": 0.1616875316666667,
+      "ci95_normal_halfwidth": 0.023926961870070495,
+      "n": 300
+    },
+    {
+      "cross_cost": 1,
+      "difference": "ratio-greedy",
+      "mean": 0.6068950000000001,
+      "ci95_normal_halfwidth": 0.04132675626031388,
+      "n": 300
+    },
+    {
+      "cross_cost": 3,
+      "difference": "greedy-optimal",
+      "mean": 0.18320745000000027,
+      "ci95_normal_halfwidth": 0.027503667926644073,
+      "n": 300
+    },
+    {
+      "cross_cost": 3,
+      "difference": "ratio-greedy",
+      "mean": 1.1877683333333333,
+      "ci95_normal_halfwidth": 0.0931456429761543,
+      "n": 300
+    }
+  ],
+  "worked_example": {
+    "assess_all": 3,
+    "random": 2.4666666666666663,
+    "ratio": 3.0,
+    "greedy": 2.05,
+    "optimal": 2.05
+  },
+  "elapsed_seconds": 8.845496900146827
+}
